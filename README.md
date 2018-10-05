@@ -1,4 +1,4 @@
-# Machine Learning: Birds
+# Birds Analysis
 
 TensorFlow analysis with data from Cornell's eBird database
 
