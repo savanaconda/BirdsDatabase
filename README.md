@@ -17,6 +17,6 @@ csv file to SQL database with **CSVtoSQLqueries.py**
 
 
 Example query of data stored in main table:
-![alt text](https://github.com/savanaconda/Birds-Analysis/blob/master/Images/SQL%20table%20example.png)
+![](https://github.com/savanaconda/Birds-Analysis/blob/master/Images/SQL%20table%20example.png)
 
 SQL database structure outlined in **Birds_SQL_databasestructure.pdf**
