@@ -6,13 +6,13 @@ Accessed csv file of eBird Observation Dataset from Cornell Lab of Ornithology
 on Global Biodiversity Information Facility (GBIF) website:
 https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e
 
-Shortened data to more manageable chunk with #GetShortCSV.py
+Shortened data to more manageable chunk with **GetShortCSV.py**
 
 Wrote python code to create SQL queries in order to transfer data from
-csv file to SQL database with CSVtoSQLqueries.py
-    - Output txt files with query commands stored python_output_txt_files folder
-    - Actual SQL query files in SQL_queries folder
+csv file to SQL database with **CSVtoSQLqueries.py**
+    - Output txt files with query commands stored **python_output_txt_files** folder
+    - Actual SQL query files in **SQL_queries** folder
         - Creating all tables (this was written by hand to create schema and tables
         - All other files are the queries to insert data into tables
 
-SQL database structure outlined in Birds_SQL_databasestructure.pdf
+SQL database structure outlined in **Birds_SQL_databasestructure.pdf**
