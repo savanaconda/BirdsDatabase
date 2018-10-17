@@ -1,6 +1,6 @@
-# Birds Analysis
+# Birds Database
 
-TensorFlow analysis with data from Cornell's eBird database
+Created my own SQL Database with data from Cornell's eBird database
 
 Accessed csv file of eBird Observation Dataset from Cornell Lab of Ornithology
 on Global Biodiversity Information Facility (GBIF) website:
@@ -20,3 +20,5 @@ Example query of data stored in main table:
 ![](https://github.com/savanaconda/Birds-Analysis/blob/master/Images/SQL%20table%20example.png)
 
 SQL database structure outlined in **Birds_SQL_databasestructure.pdf**
+
+Database is design to be in Fourth Normal form.
