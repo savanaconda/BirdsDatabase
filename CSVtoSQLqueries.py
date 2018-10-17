@@ -173,6 +173,12 @@ def featureeng(my_data):
 	return my_data
 
 
+def write_to_CSV(data, filename):
+	#Inputs:
+	# data is a pandas dataframe with all data
+	# filename is the name of the csv file to create
+	data.to_csv(filename)
+
 
 
 def main():
@@ -231,6 +237,10 @@ def main():
 	write_to_tableQuery(my_data, date_columns, date_query_table, date_query_out_file)
 	write_to_tableQuery(my_data, location_columns, location_query_table, location_query_out_file)
 	print('Write text files:', time.time()-st)
+
+	#also write to csvs but only with relevant columns
+	write_to_CSV(my_data, 'tensorflow_birddata.csv')
+
 
 
 # To add in for timing
